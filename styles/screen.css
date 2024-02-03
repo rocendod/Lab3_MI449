@@ -1,16 +1,16 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Cascadia Code', monospace;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #0c0d0c;
     padding: 0 40px;
     text-align: center;
 }
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
+    width: 650px;
     border-radius: 50px;
-    background: #212431;
+    background: #2d8823;
 }
 
 nav ul {
@@ -28,22 +28,38 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color: #0c0d0c;
     text-decoration: none;
     font-size: 1.2em;
 }
 
 h1 {
-    font-size: 8em;
+    font-family: 'Cascadia Code', monospace;
+    color: #2d8823;
+    font-size: 5em;
     letter-spacing: -2px;
+    border: 5px dashed #2d8823;
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+a {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #2d8823;
+    
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h2 {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #2d8823;
+    line-height: 2;
 }
+
 
 img.about {
     opacity: 0.5;

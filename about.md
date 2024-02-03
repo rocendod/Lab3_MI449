@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-title: About
+title: Data Entry 1
 ---
 
 # About the 11ty **Boilerplate**

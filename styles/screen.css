@@ -35,11 +35,12 @@ h1 {
     text-align: center;
     font-family: 'Cascadia Code', monospace;
     color: #2d8823;
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: 700;
     letter-spacing: -2px;
-    border: 5px dashed #2d8823;
+    border: 6px dashed #2d8823;
     padding: 40px;
+    margin-top: 0px;
     margin-bottom: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -86,4 +87,9 @@ h4 {
     font-weight: 600;
     color: #2d8823;
     line-height: 2;
+}
+
+img {
+    display: block;
+    margin: auto;
 }

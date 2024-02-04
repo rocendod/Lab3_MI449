@@ -1,9 +1,7 @@
 body {
     font-family: 'Cascadia Code', monospace;
-    color: #EAE8FF;
     background: #0c0d0c;
     padding: 0 40px;
-    text-align: center;
 }
 
 nav {
@@ -34,12 +32,15 @@ nav ul li a {
 }
 
 h1 {
+    text-align: center;
     font-family: 'Cascadia Code', monospace;
     color: #2d8823;
     font-size: 5em;
+    font-weight: 700;
     letter-spacing: -2px;
     border: 5px dashed #2d8823;
     padding: 40px;
+    margin-bottom: 100px;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -52,15 +53,37 @@ a {
 }
 
 h2 {
+    text-align: center;
+    margin-bottom: 100px;
     margin-left: 80px;
     margin-right: 80px;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 600;
     color: #2d8823;
     line-height: 2;
 }
 
-
 img.about {
     opacity: 0.5;
+}
+
+h3 {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #2d8823;
+    line-height: 2;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 80px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #2d8823;
+    line-height: 2;
 }

@@ -9,6 +9,8 @@ nav {
     width: 650px;
     border-radius: 50px;
     background: #2d8823;
+    position: sticky;
+    top: -1px;
 }
 
 nav ul {
